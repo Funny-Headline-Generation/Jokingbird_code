@@ -1,0 +1,4 @@
+python -W ignore main.py --colloc_metric PMI --colloc_thresh 3.0 --word_replacer BERTReplacer --keep_case --top_k 3 --score 1000Headlines.xlsx thousand_lines_bert_humedit_right_thresh.xlsx
+python -W ignore main.py --colloc_metric PMI --colloc_thresh 3.0 --word_replacer BERTReplacer --bert_model_path bert_jokes --top_k 12 --score 1000Headlines.xlsx  thousand_lines_bert_jokes_right_thresh.xlsx
+python -W ignore main.py --colloc_metric PMI --colloc_thresh 3.0 --dist_thresh 0.4 --word_replacer GensimCollocateReplacer --keep_case --keep_all --score 1000Headlines.xlsx thousand_lines_colloc_right_thresh.xlsx
+python -W ignore main.py --colloc_metric PMI --colloc_thresh 3.0 --dist_thresh 0.4 --word_replacer GensimCollocateReplacer --colloc_matrix_path CM_nltk_jokes --keep_case --keep_all --score 1000Headlines.xlsx thousand_lines_jokecolloc_right_thresh.xlsx
