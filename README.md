@@ -1,5 +1,7 @@
 # Jokingbird: Funny headline generation for news
 
+Output on 1000 random headlines from our best model - https://github.com/Funny-Headline-Generation/Jokingbird_code/blob/main/BertHumEditOutput.xlsx?raw=true
+
 ## Quickstart
 
 1. Clone this repository.
