@@ -45,9 +45,9 @@ Harvard news articles - https://doi.org/10.7910/DVN/GMFCTR
 
 RedditJokes [1] - https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection
 
-Humicroedit - https://cs.rochester.edu/u/nhossain/funlines.html
+Humicroedit [2] - https://cs.rochester.edu/u/nhossain/funlines.html
 
-FunLines - https://cs.rochester.edu/u/nhossain/funlines.html
+FunLines [3] - https://cs.rochester.edu/u/nhossain/funlines.html
 
 
 Output of our best model (BERTHumEdit)  on 1000 headlines from our input dataset is available here:
@@ -57,6 +57,8 @@ https://github.com/Funny-Headline-Generation/Jokingbird_code/blob/main/BertHumEd
 ## References
 
 1. Annamoradnejad, I., Zoghi, G.: ColBERT: Using BERT sentence embedding for humor detection. arXiv preprint arXiv:2004.12765 (2020)
+2. Hossain, N., Krumm, J., Gamon, M.: “President Vows to Cut <Taxes>Hair”: Dataset and analysis of creative text editing for humorous headlines. In: Proceedings of the 2019 Conference of the North American Chapter of the Association forComputational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). pp. 133–142 (2019)
+3. Hossain, N., Krumm, J., Sajed, T., Kautz, H.: Stimulating creativity with FunLines: A case study of humor generation in headlines. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations. pp. 256–262 (2020)
 
 ## Quickstart
 
