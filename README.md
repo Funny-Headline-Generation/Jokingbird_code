@@ -37,13 +37,26 @@ produces the funniest and in most cases grammatically correct output.
 
 Our input and training data was from publicly available datasets:
 
-Humicroedit - 
+Times front page news - https://components.one/datasets/above-the-fold/
 
+All the news - https://www.kaggle.com/snapcrack/all-the-news
+
+Harvard news articles - https://doi.org/10.7910/DVN/GMFCTR
+
+RedditJokes [1] - https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection
+
+Humicroedit - https://cs.rochester.edu/u/nhossain/funlines.html
+
+FunLines - https://cs.rochester.edu/u/nhossain/funlines.html
 
 
 Output of our best model (BERTHumEdit)  on 1000 headlines from our input dataset is available here:
 
 https://github.com/Funny-Headline-Generation/Jokingbird_code/blob/main/BertHumEditOutput.xlsx?raw=true
+
+## References
+
+1. Annamoradnejad, I., Zoghi, G.: ColBERT: Using BERT sentence embedding for humor detection. arXiv preprint arXiv:2004.12765 (2020)
 
 ## Quickstart
 
