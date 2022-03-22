@@ -1,6 +1,49 @@
 # Jokingbird: Funny headline generation for news
 
-Output on 1000 random headlines from our best model - https://github.com/Funny-Headline-Generation/Jokingbird_code/blob/main/BertHumEditOutput.xlsx?raw=true
+## About
+
+This is the source code for the paper "Jokingbird: Funny Headline Generation for News" by Nikita Login, Alexander Baranov and Pavel Braslavski (To be published in LNCS 13217)
+
+Authors:
+
+Nikita Login, HSE University, Moscow, Russia
+
+Alexander Baranov, HSE University, Moscow, Russia
+
+Pavel Braslavski, Ural Federal University
+
+The research was done as a part of master's course at HSE University in 2020-2021
+
+Research supervisor: Pavel Braslavsky, Ural Federal University
+
+Academic supervisor: Anastasia Bonch-Osmolovskaya, HSE University, Moscow, Russia
+
+## Abstract
+
+In this study, we address the problem of generating funny
+headlines for news articles. Funny headlines are beneficial even for seri-
+ous news stories – they attract and entertain the reader. Automatically
+generated funny headlines can serve as prompts for news editors. More
+generally, humor generation can be applied to other domains, e.g. con-
+versational systems. Like previous approaches, our methods are based
+on lexical substitutions. We consider two techniques for generating sub-
+stitute words: one based on BERT and another based on collocation
+strength and semantic distance. At the final stage, a humor classifier
+chooses the funniest variant from the generated pool. An in-house eval-
+uation of 200 generated headlines showed that the BERT-based model
+produces the funniest and in most cases grammatically correct output.
+
+## Data
+
+Our input and training data was from publicly available datasets:
+
+Humicroedit - 
+
+
+
+Output of our best model (BERTHumEdit)  on 1000 headlines from our input dataset is available here:
+
+https://github.com/Funny-Headline-Generation/Jokingbird_code/blob/main/BertHumEditOutput.xlsx?raw=true
 
 ## Quickstart
 
