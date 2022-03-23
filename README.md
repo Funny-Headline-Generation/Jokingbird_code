@@ -2,7 +2,11 @@
 
 ## About
 
-This is the source code for the paper "Jokingbird: Funny Headline Generation for News" by Nikita Login, Alexander Baranov and Pavel Braslavski (To be published in LNCS 13217)
+This is the source code for the following paper:
+
+Nikita Login, Alexander Baranov and Pavel Braslavski "Jokingbird: Funny Headline Generation for News" [Preprint]
+
+To be published in: LNCS, vol. 13217
 
 The research was done as a part of master's course at HSE University in 2020-2021
 
