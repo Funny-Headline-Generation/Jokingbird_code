@@ -37,6 +37,17 @@ chooses the funniest variant from the generated pool. An in-house eval-
 uation of 200 generated headlines showed that the BERT-based model
 produces the funniest and in most cases grammatically correct output.
 
+
+## Algorithm output examples
+
+
+*As he moves campaign to battlegrounds, which Donald ~~Trump~~* **duck** *will show up?*
+
+*Wall Street dips before French ~~election~~* **toast** *, but up for week.*
+
+*UK leaders must let the Brexit ~~vote~~* **sandwich** *stand*
+
+
 ## Data
 
 Our input and training data was from publicly available datasets:
@@ -125,6 +136,12 @@ Some of the key command line arguments
  
  -- colloc_metric - Which collocation strength metric to use (default: that of saved collocate matrix, PMI in files provided above,
                                                               supported: PMI, LL (Log-likelihood), Jaccard, Dice, TScore)
+                                                          
+### Run example
+
+<code>python main.py --word_replacer "DistReplacer"  --bert_model_path "./bert/" --colloc_matrix_path "./matrix"  --keep_case False  --top_k 5</code>
+
+
 
 The workflow of the algorithm is illustrated below:
 
