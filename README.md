@@ -116,11 +116,11 @@ To see the possible list of options, type:
 
 Some of the key command line arguments
 
- -- word_replacer - Which algorithm to use for masked word replacement (BERT Replacer or DistReplacer)
+ -- word_replacer str - Which algorithm to use for masked word replacement (BERT Replacer or DistReplacer)
  
- -- bert_model_path - Path to saved bert model for BERTReplacer
+ -- bert_model_path str - Path to saved bert model for BERTReplacer
  
- -- colloc_matrix_path - Path to saved collocation matrix
+ -- colloc_matrix_path str - Path to saved collocation matrix
  
  -- keep_case - Whether not to lowercase before identifying collocations (default: False)
  
@@ -130,11 +130,11 @@ Some of the key command line arguments
  
  -- top_k int - Whether to sample top-k BERT predictions and pass them to next level instead of selecting only most probable one (default: 3)
  
- -- colloc_thresh - Threshold of collocation strength for n-grams to be considered collocations (default: 3.0)
+ -- colloc_thresh float - Threshold of collocation strength for n-grams to be considered collocations (default: 3.0)
  
- -- dist_thresh - Threshold of Word2Vec cosine distance (between 0 and 1) for DistReplacer (default: 0.4)
+ -- dist_thresh float - Threshold of Word2Vec cosine distance (between 0 and 1) for DistReplacer (default: 0.4)
  
- -- colloc_metric - Which collocation strength metric to use (default: that of saved collocate matrix, PMI in files provided above,
+ -- colloc_metric str - Which collocation strength metric to use (default: that of saved collocate matrix, PMI in files provided above,
                                                               supported: PMI, LL (Log-likelihood), Jaccard, Dice, TScore)
                                                           
 ### Run example
