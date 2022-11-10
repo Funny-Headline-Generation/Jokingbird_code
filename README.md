@@ -4,7 +4,7 @@
 
 This is the source code for the following paper:
 
-Nikita Login, Alexander Baranov and Pavel Braslavski "Jokingbird: Funny Headline Generation for News"
+Nikita Login, Alexander Baranov and Pavel Braslavski <b>Jokingbird: Funny Headline Generation for News</b>
 
 https://link.springer.com/chapter/10.1007/978-3-031-16500-9_9
 
